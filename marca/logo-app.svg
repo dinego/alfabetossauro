@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Alfabetossauro">
+  <defs>
+    <linearGradient id="ceu" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7ed0ff"/><stop offset="1" stop-color="#b6ecff"/></linearGradient>
+    <linearGradient id="corpo" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#74d4d0"/><stop offset="1" stop-color="#45b1b6"/></linearGradient>
+    <radialGradient id="glow"><stop offset="0" stop-color="#fff" stop-opacity="0.6"/><stop offset="65%" stop-color="#fff" stop-opacity="0.12"/><stop offset="100%" stop-color="#fff" stop-opacity="0"/></radialGradient>
+    <clipPath id="r"><rect width="512" height="512" rx="112"/></clipPath>
+  </defs>
+  <g clip-path="url(#r)">
+    <rect width="512" height="512" fill="url(#ceu)"/>
+    <circle cx="420" cy="94" r="44" fill="#fff3c4" opacity="0.85"/>
+    <g fill="#fff" opacity="0.92"><ellipse cx="118" cy="118" rx="40" ry="22"/><ellipse cx="154" cy="126" rx="32" ry="18"/><ellipse cx="86" cy="130" rx="28" ry="16"/></g>
+    <path d="M0 372 Q128 322 256 372 T512 366 V512 H0 Z" fill="#7bc86c"/>
+    <path d="M0 418 Q140 374 300 420 T512 410 V512 H0 Z" fill="#57a84a"/>
+    <ellipse cx="256" cy="248" rx="190" ry="200" fill="url(#glow)"/>
+    <g transform="translate(256 238) scale(0.9)">
+      <!-- cauda enrolada -->
+      <path d="M-66 116 C-116 118 -150 150 -142 186 C-137 208 -108 212 -103 189 C-99 173 -116 167 -122 181" fill="none" stroke="#2c8a90" stroke-width="22" stroke-linecap="round"/>
+      <path d="M-66 116 C-116 118 -150 150 -142 186 C-137 208 -108 212 -103 189 C-99 173 -116 167 -122 181" fill="none" stroke="#4bb6ba" stroke-width="12" stroke-linecap="round"/>
+      <!-- pés -->
+      <ellipse cx="-40" cy="140" rx="31" ry="20" fill="#4bb6ba" stroke="#2c8a90" stroke-width="6"/>
+      <ellipse cx="40" cy="140" rx="31" ry="20" fill="#4bb6ba" stroke="#2c8a90" stroke-width="6"/>
+      <!-- crista de bolinhas (atrás do corpo) -->
+      <g fill="#4bb6ba" stroke="#2c8a90" stroke-width="6">
+        <circle cx="-2" cy="-150" r="12"/><circle cx="26" cy="-141" r="14"/>
+        <circle cx="52" cy="-120" r="15"/><circle cx="70" cy="-88" r="14"/><circle cx="80" cy="-52" r="12"/>
+      </g>
+      <!-- corpo -->
+      <path d="M0 -140 C62 -140 104 -84 106 -18 C108 70 66 148 0 148 C-66 148 -108 70 -106 -18 C-104 -84 -62 -140 0 -140 Z" fill="url(#corpo)" stroke="#2c8a90" stroke-width="8" stroke-linejoin="round"/>
+      <!-- barriga clara -->
+      <ellipse cx="0" cy="60" rx="47" ry="56" fill="#e4f5f1"/>
+      <!-- bracinhos -->
+      <ellipse cx="-94" cy="72" rx="22" ry="17" fill="#4bb6ba" stroke="#2c8a90" stroke-width="6"/>
+      <ellipse cx="94" cy="72" rx="22" ry="17" fill="#4bb6ba" stroke="#2c8a90" stroke-width="6"/>
+      <!-- pintinhas na cabeça -->
+      <g fill="#2c8a90" opacity="0.5">
+        <circle cx="-22" cy="-104" r="4.5"/><circle cx="4" cy="-112" r="4"/><circle cx="24" cy="-100" r="4.5"/><circle cx="-3" cy="-92" r="3.5"/>
+      </g>
+      <!-- sobrancelhas -->
+      <path d="M-56 -95 Q-39 -103 -22 -96" fill="none" stroke="#2c8a90" stroke-width="7" stroke-linecap="round"/>
+      <path d="M22 -96 Q39 -103 56 -95" fill="none" stroke="#2c8a90" stroke-width="7" stroke-linecap="round"/>
+      <!-- olhos enormes brilhantes -->
+      <ellipse cx="-38" cy="-58" rx="28" ry="33" fill="#3b302a"/>
+      <ellipse cx="38" cy="-58" rx="28" ry="33" fill="#3b302a"/>
+      <circle cx="-48" cy="-70" r="12" fill="#fff"/><circle cx="28" cy="-70" r="12" fill="#fff"/>
+      <circle cx="-30" cy="-44" r="7" fill="#fff"/><circle cx="46" cy="-44" r="7" fill="#fff"/>
+      <!-- bochechas -->
+      <ellipse cx="-62" cy="-4" rx="18" ry="12" fill="#f4a6b6" opacity="0.9"/>
+      <ellipse cx="62" cy="-4" rx="18" ry="12" fill="#f4a6b6" opacity="0.9"/>
+      <!-- narinas + boquinha -->
+      <circle cx="-9" cy="-16" r="3.2" fill="#2c8a90"/><circle cx="9" cy="-16" r="3.2" fill="#2c8a90"/>
+      <path d="M-13 4 Q0 20 13 4" fill="none" stroke="#2c8a90" stroke-width="6" stroke-linecap="round"/>
+    </g>
+    <g font-family="Verdana,sans-serif" font-weight="900" text-anchor="middle">
+      <g transform="translate(150 452)"><rect x="-34" y="-34" width="68" height="68" rx="16" fill="#ff7a3c" stroke="#fff" stroke-width="5"/><text x="0" y="20" font-size="50" fill="#fff">A</text></g>
+      <g transform="translate(256 452)"><rect x="-34" y="-34" width="68" height="68" rx="16" fill="#ffb03c" stroke="#fff" stroke-width="5"/><text x="0" y="20" font-size="50" fill="#fff">B</text></g>
+      <g transform="translate(362 452)"><rect x="-34" y="-34" width="68" height="68" rx="16" fill="#3fa9c4" stroke="#fff" stroke-width="5"/><text x="0" y="20" font-size="50" fill="#fff">C</text></g>
+    </g>
+  </g>
+</svg>
