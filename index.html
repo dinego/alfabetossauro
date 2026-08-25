@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Alfabetossauro — acervo local</title>
+<link rel="icon" href="marca/logo-app.svg">
+<style>
+  :root{--bg:#fbf7ef;--card:#fff;--line:#ece3d2;--muted:#8a7f6d;--ink:#3a2b1a;--laranja:#ff7a3c;
+        font-family:"Nunito",system-ui,-apple-system,"Segoe UI",sans-serif}
+  @media (prefers-color-scheme:dark){:root{--bg:#1a2230;--card:#222c3d;--line:#33415a;--muted:#94a3b8;--ink:#eaf2ff}}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);-webkit-font-smoothing:antialiased}
+  .wrap{max-width:900px;margin:0 auto;padding:48px 24px 80px}
+  header{display:flex;align-items:center;gap:20px;margin-bottom:8px}
+  header img{width:92px;height:92px;border-radius:22px}
+  h1{font-size:38px;font-weight:900;margin:0;letter-spacing:-.01em}
+  h1 span{color:var(--laranja)}
+  .sub{color:var(--muted);font-size:17px;font-weight:600;margin:6px 0 34px}
+  h2{font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:34px 0 12px}
+  .grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(250px,1fr))}
+  a.card{display:block;text-decoration:none;color:inherit;background:var(--card);border:1px solid var(--line);
+         border-radius:16px;padding:16px 18px;transition:transform .12s ease,border-color .12s ease}
+  a.card:hover{transform:translateY(-2px);border-color:var(--laranja)}
+  a.card b{display:block;font-size:16px;margin-bottom:4px}
+  a.card span{font-size:13px;color:var(--muted);line-height:1.45}
+  .aviso{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--laranja);
+         border-radius:14px;padding:16px 20px;font-size:15px;line-height:1.55}
+  .aviso code{background:rgba(255,122,60,.12);color:var(--laranja);border-radius:6px;
+              padding:1px 6px;font-size:13.5px;font-weight:700}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <img src="marca/logo-app.svg" alt="Logo Alfabetossauro">
+    <div>
+      <h1><span>ABC</span>Dino</h1>
+      <p class="sub" style="margin:4px 0 0">Acervo local — marca, mascote e direção de arte</p>
+    </div>
+  </header>
+  <p class="sub"></p>
+
+  <div class="aviso">
+    <b>O jogo está em <code>app/</code></b> — Ionic + Angular, com as telas do alfabeto e os
+    cinco minigames. Como é um projeto com build, ele não abre por aqui: rode
+    <code>cd app &amp;&amp; npm install &amp;&amp; npm start</code> e acesse
+    <code>localhost:4200</code>. As páginas abaixo são o acervo de arte que ele consome.
+  </div>
+
+  <h2>Mascote — Allo, o alossauro</h2>
+  <div class="grid">
+    <a class="card" href="mascote/allo-cena.html"><b>Allo em cena 🦖</b><span>Versão CSS pura, com chão, capim, respiração e botões de pular/rugir. Tema claro e escuro.</span></a>
+    <a class="card" href="mascote/allo-sticker.html"><b>Allo rosa — sticker</b><span>Versão SVG desenhada por JS: contorno grosso, olhos ⌒⌒, rugido em WebAudio. Clique nele.</span></a>
+    <a class="card" href="mascote/allo-no-jogo.html"><b>Allo no jogo</b><span>O CSS exato usado no app, com balão "A de Alossauro!" e a animação de rugido.</span></a>
+    <a class="card" href="mascote/allo-olhos.html"><b>Opções de olhos</b><span>As 4 variantes comparadas — a nº 2 (olhos iguais) é a que foi para o jogo.</span></a>
+  </div>
+
+  <h2>Marca</h2>
+  <div class="grid">
+    <a class="card" href="marca/logo-app.svg"><b>Ícone do app</b><span>512×512, cantos 112. Cena completa: céu, sol, nuvens, grama e os cubos A B C.</span></a>
+    <a class="card" href="marca/wordmark-claro.svg"><b>Wordmark · claro</b><span>Dino + "Alfabetossauro" para fundo claro, com "Alfabeto" em laranja.</span></a>
+    <a class="card" href="marca/wordmark-escuro.svg"><b>Wordmark · escuro</b><span>Mesma marca com "ssauro" em branco.</span></a>
+    <a class="card" href="marca/paleta.css"><b>paleta.css</b><span>Tokens de cor da marca, do cenário e do Allo.</span></a>
+  </div>
+
+  <h2>Direção de arte — os 26 dinos</h2>
+  <div class="grid">
+    <a class="card" href="referencias/dinos-refinados.html"><b>Os dinos, refinados</b><span>136 dinos (26 das letras + 110 figurinhas) a partir de 16 arquétipos. Passe o mouse: a boca abre.</span></a>
+    <a class="card" href="referencias/svg-ou-ia.html"><b>SVG ou IA?</b><span>A decisão de continuar em vetor: comparativo antes/depois e tabela de critérios.</span></a>
+  </div>
+</div>
+</body>
+</html>
